@@ -27,7 +27,7 @@ public class zad_4 {
 
         for (int i = 0; i < 10; i++) {
             temp_i = Integer.toString(i);
-            new_q = Integer.valueOf(q.replace(temp, temp_i));;
+            new_q = Integer.valueOf(q.replace(temp, temp_i));
             for (int j = 0; j < 10; j++) {
                 temp_j = Integer.toString(j);
                 new_w = Integer.valueOf(w.replace(temp, temp_j));
@@ -39,12 +39,8 @@ public class zad_4 {
                         System.out.println();
                         flag = false;
                     }
-                    else {
-                        continue;
-                    }
                 }
             }
-
         }
     
     if (flag == true) {
